@@ -1,0 +1,87 @@
+images {
+  image: "/assets/images/ballGrey_01.png"
+}
+images {
+  image: "/assets/images/ballGrey_02.png"
+}
+images {
+  image: "/assets/images/ballGrey_03.png"
+}
+images {
+  image: "/assets/images/ballGrey_04.png"
+}
+images {
+  image: "/assets/images/ballGrey_05.png"
+}
+images {
+  image: "/assets/images/ballGrey_06.png"
+}
+images {
+  image: "/assets/images/ballGrey_07.png"
+}
+images {
+  image: "/assets/images/ballGrey_08.png"
+}
+images {
+  image: "/assets/images/ballGrey_09.png"
+}
+images {
+  image: "/assets/images/ballGrey_10.png"
+}
+images {
+  image: "/assets/images/paddle_01.png"
+}
+images {
+  image: "/assets/images/paddle_02.png"
+}
+images {
+  image: "/assets/images/paddle_03.png"
+}
+images {
+  image: "/assets/images/paddle_04.png"
+}
+images {
+  image: "/assets/images/paddle_05.png"
+}
+images {
+  image: "/assets/images/paddle_06.png"
+}
+images {
+  image: "/assets/images/paddle_07.png"
+}
+images {
+  image: "/assets/images/paddle_08.png"
+}
+images {
+  image: "/assets/images/paddle_09.png"
+}
+images {
+  image: "/assets/images/paddle_10.png"
+}
+images {
+  image: "/assets/images/paddle_11.png"
+}
+images {
+  image: "/assets/images/paddle_12.png"
+}
+images {
+  image: "/assets/images/tileBlue_26.png"
+}
+images {
+  image: "/assets/images/tileBlue_38.png"
+}
+images {
+  image: "/assets/images/tileGreen_26.png"
+}
+images {
+  image: "/assets/images/tileGreen_38.png"
+}
+images {
+  image: "/assets/images/tilePink_26.png"
+}
+images {
+  image: "/assets/images/tilePink_38.png"
+}
+margin: 0
+extrude_borders: 2
+inner_padding: 0
