@@ -2,9 +2,6 @@ go.property("velocity", vmath.vector3())
 go.property("speed", 750)
 
 function init(self)
-	math.randomseed(os.time())
-	self.velocity.x = math.random() * self.speed
-	self.velocity.y = (math.random(5, 10) / 10) * self.speed
 end
 
 function final(self)
@@ -29,6 +26,11 @@ function on_message(self, message_id, message, sender)
 		if message.group == hash("brick") then
 			go.delete(message.other_id)
 		end
+	elseif message_id == hash("stop") then
+		self.velocity = vmath.vector3()
+	elseif message_id == hash("launch") then
+		self.velocity.x = (math.random(5, 10) / 10) * self.speed
+		self.velocity.y = self.speed
 	end
 end
 

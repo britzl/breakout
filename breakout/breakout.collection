@@ -1,7 +1,7 @@
 name: "default"
 instances {
   id: "ball"
-  prototype: "/main/ball.go"
+  prototype: "/breakout/ball.go"
   position {
     x: 315.663
     y: 351.175
@@ -21,7 +21,7 @@ instances {
 }
 instances {
   id: "green1"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 113.99
     y: 780.373
@@ -40,8 +40,188 @@ instances {
   }
 }
 instances {
+  id: "green11"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 113.99
+    y: 812.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green111"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 113.99
+    y: 878.032
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green112"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 113.99
+    y: 941.301
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green113"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 113.99
+    y: 1006.635
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green114"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 113.99
+    y: 1071.968
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green12"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 113.99
+    y: 845.479
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green13"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 113.99
+    y: 908.748
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green14"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 113.99
+    y: 974.082
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green15"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 113.99
+    y: 1039.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
   id: "green2"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 173.45
     y: 780.373
@@ -60,8 +240,188 @@ instances {
   }
 }
 instances {
+  id: "green21"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 173.45
+    y: 812.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green211"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 173.45
+    y: 878.032
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green212"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 173.45
+    y: 941.301
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green213"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 173.45
+    y: 1006.635
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green214"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 173.45
+    y: 1071.968
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green22"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 173.45
+    y: 845.479
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green23"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 173.45
+    y: 908.748
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green24"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 173.45
+    y: 974.082
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green25"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 173.45
+    y: 1039.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
   id: "green3"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 232.911
     y: 780.373
@@ -80,8 +440,188 @@ instances {
   }
 }
 instances {
+  id: "green31"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 232.911
+    y: 812.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green311"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 232.911
+    y: 878.032
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green312"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 232.911
+    y: 941.301
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green313"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 232.911
+    y: 1006.635
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green314"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 232.911
+    y: 1071.968
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green32"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 232.911
+    y: 845.479
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green33"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 232.911
+    y: 908.748
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green34"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 232.911
+    y: 974.082
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green35"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 232.911
+    y: 1039.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
   id: "green4"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 292.371
     y: 780.373
@@ -100,8 +640,188 @@ instances {
   }
 }
 instances {
+  id: "green41"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 292.371
+    y: 812.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green411"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 292.371
+    y: 878.032
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green412"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 292.371
+    y: 941.301
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green413"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 292.371
+    y: 1006.635
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green414"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 292.371
+    y: 1071.968
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green42"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 292.371
+    y: 845.479
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green43"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 292.371
+    y: 908.748
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green44"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 292.371
+    y: 974.082
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green45"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 292.371
+    y: 1039.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
   id: "green5"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 351.101
     y: 780.373
@@ -120,8 +840,188 @@ instances {
   }
 }
 instances {
+  id: "green51"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 351.101
+    y: 812.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green511"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 351.101
+    y: 878.032
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green512"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 351.101
+    y: 941.301
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green513"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 351.101
+    y: 1006.635
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green514"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 351.101
+    y: 1071.968
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green52"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 351.101
+    y: 845.479
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green53"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 351.101
+    y: 908.748
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green54"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 351.101
+    y: 974.082
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green55"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 351.101
+    y: 1039.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
   id: "green6"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 410.625
     y: 780.373
@@ -140,8 +1040,188 @@ instances {
   }
 }
 instances {
+  id: "green61"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 410.625
+    y: 812.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green611"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 410.625
+    y: 878.032
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green612"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 410.625
+    y: 941.301
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green613"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 410.625
+    y: 1006.635
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green614"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 410.625
+    y: 1071.968
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green62"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 410.625
+    y: 845.479
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green63"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 410.625
+    y: 908.748
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green64"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 410.625
+    y: 974.082
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green65"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 410.625
+    y: 1039.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
   id: "green7"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 470.086
     y: 780.373
@@ -160,28 +1240,8 @@ instances {
   }
 }
 instances {
-  id: "green8"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 780.373
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
   id: "green71"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 528.84
     y: 780.373
@@ -201,7 +1261,7 @@ instances {
 }
 instances {
   id: "green711"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 588.388
     y: 780.373
@@ -220,371 +1280,11 @@ instances {
   }
 }
 instances {
-  id: "green81"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green61"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 410.625
-    y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green51"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 351.101
-    y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green31"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 232.911
-    y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green11"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 113.99
-    y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
   id: "green7111"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 588.388
     y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green41"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 292.371
-    y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green72"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 470.086
-    y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green21"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 173.45
-    y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green712"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 528.84
-    y: 812.926
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green311"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 232.911
-    y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green82"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 845.479
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green62"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 410.625
-    y: 845.479
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green111"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 113.99
-    y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green52"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 351.101
-    y: 845.479
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green32"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 232.911
-    y: 845.479
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green811"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green12"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 113.99
-    y: 845.479
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green7112"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 588.388
-    y: 845.479
     z: 0.0
   }
   rotation {
@@ -601,390 +1301,10 @@ instances {
 }
 instances {
   id: "green71111"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 588.388
     y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green7121"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 528.84
-    y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green611"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 410.625
-    y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green411"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 292.371
-    y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green211"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 173.45
-    y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green42"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 292.371
-    y: 845.479
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green73"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 470.086
-    y: 845.479
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green721"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 470.086
-    y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green22"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 173.45
-    y: 845.479
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green511"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 351.101
-    y: 878.032
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green713"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 528.84
-    y: 845.479
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green312"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 232.911
-    y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green83"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 908.748
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green63"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 410.625
-    y: 908.748
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green112"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 113.99
-    y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green53"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 351.101
-    y: 908.748
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green33"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 232.911
-    y: 908.748
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green812"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green13"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 113.99
-    y: 908.748
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green7113"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 588.388
-    y: 908.748
     z: 0.0
   }
   rotation {
@@ -1001,390 +1321,10 @@ instances {
 }
 instances {
   id: "green71112"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 588.388
     y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green7122"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 528.84
-    y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green612"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 410.625
-    y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green412"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 292.371
-    y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green212"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 173.45
-    y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green43"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 292.371
-    y: 908.748
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green74"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 470.086
-    y: 908.748
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green722"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 470.086
-    y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green23"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 173.45
-    y: 908.748
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green512"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 351.101
-    y: 941.301
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green714"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 528.84
-    y: 908.748
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green313"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 232.911
-    y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green84"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 974.082
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green64"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 410.625
-    y: 974.082
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green113"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 113.99
-    y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green54"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 351.101
-    y: 974.082
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green34"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 232.911
-    y: 974.082
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green813"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green14"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 113.99
-    y: 974.082
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green7114"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 588.388
-    y: 974.082
     z: 0.0
   }
   rotation {
@@ -1401,390 +1341,10 @@ instances {
 }
 instances {
   id: "green71113"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 588.388
     y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green7123"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 528.84
-    y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green613"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 410.625
-    y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green413"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 292.371
-    y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green213"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 173.45
-    y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green44"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 292.371
-    y: 974.082
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green75"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 470.086
-    y: 974.082
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green723"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 470.086
-    y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green24"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 173.45
-    y: 974.082
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green513"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 351.101
-    y: 1006.635
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green715"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 528.84
-    y: 974.082
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green314"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 232.911
-    y: 1071.968
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green85"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 1039.415
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green65"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 410.625
-    y: 1039.415
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green114"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 113.99
-    y: 1071.968
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green55"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 351.101
-    y: 1039.415
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green35"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 232.911
-    y: 1039.415
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green814"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 55.324
-    y: 1071.968
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green15"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 113.99
-    y: 1039.415
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green7115"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 588.388
-    y: 1039.415
     z: 0.0
   }
   rotation {
@@ -1801,7 +1361,7 @@ instances {
 }
 instances {
   id: "green71114"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 588.388
     y: 1071.968
@@ -1820,8 +1380,168 @@ instances {
   }
 }
 instances {
+  id: "green7112"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 588.388
+    y: 845.479
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green7113"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 588.388
+    y: 908.748
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green7114"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 588.388
+    y: 974.082
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green7115"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 588.388
+    y: 1039.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green712"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 528.84
+    y: 812.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green7121"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 528.84
+    y: 878.032
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green7122"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 528.84
+    y: 941.301
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green7123"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 528.84
+    y: 1006.635
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
   id: "green7124"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 528.84
     y: 1071.968
@@ -1840,11 +1560,11 @@ instances {
   }
 }
 instances {
-  id: "green614"
-  prototype: "/main/green_brick.go"
+  id: "green713"
+  prototype: "/breakout/green_brick.go"
   position {
-    x: 410.625
-    y: 1071.968
+    x: 528.84
+    y: 845.479
     z: 0.0
   }
   rotation {
@@ -1860,11 +1580,11 @@ instances {
   }
 }
 instances {
-  id: "green414"
-  prototype: "/main/green_brick.go"
+  id: "green714"
+  prototype: "/breakout/green_brick.go"
   position {
-    x: 292.371
-    y: 1071.968
+    x: 528.84
+    y: 908.748
     z: 0.0
   }
   rotation {
@@ -1880,111 +1600,11 @@ instances {
   }
 }
 instances {
-  id: "green214"
-  prototype: "/main/green_brick.go"
+  id: "green715"
+  prototype: "/breakout/green_brick.go"
   position {
-    x: 173.45
-    y: 1071.968
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green45"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 292.371
-    y: 1039.415
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green76"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 470.086
-    y: 1039.415
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green724"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 470.086
-    y: 1071.968
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green25"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 173.45
-    y: 1039.415
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.25
-    y: 0.25
-    z: 1.0
-  }
-}
-instances {
-  id: "green514"
-  prototype: "/main/green_brick.go"
-  position {
-    x: 351.101
-    y: 1071.968
+    x: 528.84
+    y: 974.082
     z: 0.0
   }
   rotation {
@@ -2001,7 +1621,7 @@ instances {
 }
 instances {
   id: "green716"
-  prototype: "/main/green_brick.go"
+  prototype: "/breakout/green_brick.go"
   position {
     x: 528.84
     y: 1039.415
@@ -2019,12 +1639,412 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "green72"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 470.086
+    y: 812.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green721"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 470.086
+    y: 878.032
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green722"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 470.086
+    y: 941.301
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green723"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 470.086
+    y: 1006.635
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green724"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 470.086
+    y: 1071.968
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green73"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 470.086
+    y: 845.479
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green74"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 470.086
+    y: 908.748
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green75"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 470.086
+    y: 974.082
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green76"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 470.086
+    y: 1039.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green8"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 780.373
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green81"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 812.926
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green811"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 878.032
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green812"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 941.301
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green813"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 1006.635
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green814"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 1071.968
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green82"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 845.479
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green83"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 908.748
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green84"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 974.082
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "green85"
+  prototype: "/breakout/green_brick.go"
+  position {
+    x: 55.324
+    y: 1039.415
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
+instances {
+  id: "paddle"
+  prototype: "/breakout/paddle.go"
+  position {
+    x: 320.0
+    y: 104.29077
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.25
+    y: 0.25
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
-  id: "paddle"
+  id: "breakout"
   data: "components {\n"
   "  id: \"script\"\n"
-  "  component: \"/main/paddle.script\"\n"
+  "  component: \"/breakout/breakout.script\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -2041,18 +2061,17 @@ embedded_instances {
   "  id: \"collisionobject\"\n"
   "  type: \"collisionobject\"\n"
   "  data: \"collision_shape: \\\"\\\"\\n"
-  "type: COLLISION_OBJECT_TYPE_KINEMATIC\\n"
+  "type: COLLISION_OBJECT_TYPE_STATIC\\n"
   "mass: 0.0\\n"
   "friction: 0.1\\n"
   "restitution: 0.5\\n"
-  "group: \\\"paddle\\\"\\n"
+  "group: \\\"wall\\\"\\n"
   "mask: \\\"ball\\\"\\n"
-  "mask: \\\"wall\\\"\\n"
   "embedded_collision_shape {\\n"
   "  shapes {\\n"
   "    shape_type: TYPE_BOX\\n"
   "    position {\\n"
-  "      x: 0.0\\n"
+  "      x: 320.0\\n"
   "      y: 0.0\\n"
   "      z: 0.0\\n"
   "    }\\n"
@@ -2066,7 +2085,7 @@ embedded_instances {
   "    count: 3\\n"
   "  }\\n"
   "  data: 320.0\\n"
-  "  data: 70.0\\n"
+  "  data: 15.0\\n"
   "  data: 10.0\\n"
   "}\\n"
   "linear_damping: 0.0\\n"
@@ -2085,30 +2104,10 @@ embedded_instances {
   "    w: 1.0\n"
   "  }\n"
   "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
-  "default_animation: \\\"paddle_02\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
   ""
   position {
-    x: 320.0
-    y: 100.0
+    x: 0.0
+    y: 0.0
     z: 0.0
   }
   rotation {
@@ -2118,14 +2117,275 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.25
-    y: 0.25
+    x: 1.0
+    y: 1.0
     z: 1.0
   }
 }
 embedded_instances {
   id: "level"
+  children: "bricks"
   data: "embedded_components {\n"
+  "  id: \"leftwall1\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -10.0\n"
+  "    y: 110.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"leftwall2\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -10.0\n"
+  "    y: 330.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"leftwall3\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -10.0\n"
+  "    y: 550.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"leftwall4\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -10.0\n"
+  "    y: 770.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"leftwall5\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -10.0\n"
+  "    y: 990.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"rightwall1\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 655.0\n"
+  "    y: 110.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"rightwall2\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 655.0\n"
+  "    y: 330.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"rightwall3\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 655.0\n"
+  "    y: 550.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"rightwall4\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 655.0\n"
+  "    y: 770.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"rightwall5\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 655.0\n"
+  "    y: 990.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"topwall1\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 103.82047\n"
+  "    y: 1134.2136\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.70710677\n"
+  "    w: 0.70710677\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"topwall2\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 323.82047\n"
+  "    y: 1134.2136\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.70710677\n"
+  "    w: 0.70710677\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"topwall3\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/breakout.atlas\\\"\\n"
+  "default_animation: \\\"elementMetal020\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 543.76685\n"
+  "    y: 1134.2136\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.70710677\n"
+  "    w: 0.70710677\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
   "  id: \"walls\"\n"
   "  type: \"collisionobject\"\n"
   "  data: \"collision_shape: \\\"\\\"\\n"
@@ -2140,7 +2400,7 @@ embedded_instances {
   "  shapes {\\n"
   "    shape_type: TYPE_BOX\\n"
   "    position {\\n"
-  "      x: 0.0\\n"
+  "      x: 10.0\\n"
   "      y: 568.0\\n"
   "      z: 0.0\\n"
   "    }\\n"
@@ -2156,7 +2416,7 @@ embedded_instances {
   "  shapes {\\n"
   "    shape_type: TYPE_BOX\\n"
   "    position {\\n"
-  "      x: 640.0\\n"
+  "      x: 635.0\\n"
   "      y: 568.0\\n"
   "      z: 0.0\\n"
   "    }\\n"
@@ -2173,7 +2433,7 @@ embedded_instances {
   "    shape_type: TYPE_BOX\\n"
   "    position {\\n"
   "      x: 320.0\\n"
-  "      y: 0.0\\n"
+  "      y: 1115.5608\\n"
   "      z: 0.0\\n"
   "    }\\n"
   "    rotation {\\n"
@@ -2185,30 +2445,11 @@ embedded_instances {
   "    index: 6\\n"
   "    count: 3\\n"
   "  }\\n"
-  "  shapes {\\n"
-  "    shape_type: TYPE_BOX\\n"
-  "    position {\\n"
-  "      x: 320.0\\n"
-  "      y: 1136.0\\n"
-  "      z: 0.0\\n"
-  "    }\\n"
-  "    rotation {\\n"
-  "      x: 0.0\\n"
-  "      y: 0.0\\n"
-  "      z: 0.0\\n"
-  "      w: 1.0\\n"
-  "    }\\n"
-  "    index: 9\\n"
-  "    count: 3\\n"
-  "  }\\n"
   "  data: 15.0\\n"
   "  data: 568.0\\n"
   "  data: 10.0\\n"
   "  data: 15.0\\n"
   "  data: 568.0\\n"
-  "  data: 10.0\\n"
-  "  data: 320.0\\n"
-  "  data: 15.0\\n"
   "  data: 10.0\\n"
   "  data: 320.0\\n"
   "  data: 15.0\\n"

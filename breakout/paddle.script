@@ -8,6 +8,7 @@ local RIGHT_V3 = vmath.vector3(1, 0, 0)
 
 function init(self)
 	input.acquire()
+	self.ball_id = nil
 end
 
 function final(self)
@@ -25,11 +26,20 @@ end
 function on_message(self, message_id, message, sender)
 	if message_id == hash("contact_point_response") and message.group == hash("wall") then
 		go.set_position(go.get_position() + message.normal * message.distance)
+	elseif message_id == hash("attach_ball") then
+		self.ball_id = message.ball_id
+		msg.post(self.ball_id, "set_parent", { parent_id = go.get_id(), keep_world_transform = 1 })
+		go.set_position(go.get_position() + vmath.vector3(0, 35, 0), self.ball_id)
 	end
 end
 
 function on_input(self, action_id, action)
 	input.update(action_id, action)
+	if action_id == hash("trigger") and action.released and self.ball_id then
+		msg.post(self.ball_id, "set_parent", { parent_id = nil, keep_world_transform = 1 })
+		msg.post(self.ball_id, "launch")
+		self.ball_id = nil
+	end
 end
 
 function on_reload(self)
