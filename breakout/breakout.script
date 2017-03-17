@@ -3,11 +3,6 @@ function init(self)
 	msg.post("paddle", "attach_ball", { ball_id = go.get_id("ball") })
 end
 
-function final(self)
-    -- Add finalization code here
-    -- Remove this function if not needed
-end
-
 function update(self, dt)
 	msg.post("@render:", "clear_color", { color = vmath.vector4(0.25, 0.25, 0.25, 1) })
 end
@@ -17,14 +12,4 @@ function on_message(self, message_id, message, sender)
 		msg.post(message.other_id, "stop")
 		msg.post("paddle", "attach_ball", { ball_id = message.other_id })
 	end
-end
-
-function on_input(self, action_id, action)
-    -- Add input-handling code here
-    -- Remove this function if not needed
-end
-
-function on_reload(self)
-    -- Add reload-handling code here
-    -- Remove this function if not needed
 end

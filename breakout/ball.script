@@ -1,26 +1,20 @@
 go.property("velocity", vmath.vector3())
 go.property("speed", 750)
 
-function init(self)
-end
-
-function final(self)
-	-- Add finalization code here
-	-- Remove this function if not needed
-end
-
 function update(self, dt)
 	go.set_position(go.get_position() + self.velocity * dt)
 end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("contact_point_response") then
+		-- handle bounce
 		-- http://gamedev.stackexchange.com/a/38514
 		local normal_velocity = vmath.dot(message.normal, self.velocity) * message.normal
 		local tangent_velocity = self.velocity - normal_velocity
 		normal_velocity = normal_velocity * -1
 		self.velocity = normal_velocity + tangent_velocity
-			
+		
+		-- separate collision
 		go.set_position(go.get_position() + (message.normal * message.distance))
 
 		if message.group == hash("brick") then
@@ -32,14 +26,4 @@ function on_message(self, message_id, message, sender)
 		self.velocity.x = (math.random(5, 10) / 10) * self.speed
 		self.velocity.y = self.speed
 	end
-end
-
-function on_input(self, action_id, action)
-	-- Add input-handling code here
-	-- Remove this function if not needed
-end
-
-function on_reload(self)
-	-- Add reload-handling code here
-	-- Remove this function if not needed
 end
